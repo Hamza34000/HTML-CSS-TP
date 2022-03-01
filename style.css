@@ -1,0 +1,290 @@
+@font-face {
+  font-family: gilroy;
+  src: url(/fonts/Gilroy-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: chronicle-display;
+  src: url(/fonts/Chronicle\ Display\ Semibold.otf) format("opentype");
+}
+
+body {
+  background-color: #0b1d26;
+  background-image: linear-gradient(
+      0deg,
+      rgba(11, 29, 38, 0) 31.06%,
+      #0b1d26 108.93%
+    ),
+    url("/img/background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  color: white;
+}
+
+.navbar {
+  margin: 50px 5% 0 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  letter-spacing: 3px;
+}
+
+.menu {
+  font-family: "gilroy";
+}
+
+.equipment {
+  margin-right: 1rem;
+}
+.about-us {
+  margin-right: 1rem;
+}
+.blog {
+  margin-right: 1rem;
+}
+
+.account {
+  font-family: "gilroy";
+}
+
+.presentation {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin-left: 5%;
+  margin-top: 7%;
+}
+
+.follow {
+  margin-bottom: 15px;
+}
+.insta {
+  margin-bottom: 15px;
+}
+.twitter {
+  margin-bottom: 15px;
+}
+
+.top-title {
+  display: flex;
+  letter-spacing: 3px;
+  width: 118%;
+  font-family: "gilroy";
+  color: #fbd784;
+}
+
+.top-line {
+  margin-right: 15%;
+  margin-top: 11%;
+}
+
+.scroll-down {
+  margin-left: 7px;
+}
+
+.main-top {
+  display: flex;
+}
+
+.main-title {
+  font-family: "chronicle-display";
+}
+
+.navigation {
+  margin-right: 5%;
+  font-family: "gilroy";
+}
+
+.navigation-titles {
+  position: absolute;
+  right: 11%;
+}
+
+.vertical-line1 {
+  border: none;
+  background-color: white;
+  height: 25vh;
+  width: 2px;
+  opacity: 40%;
+}
+.vertical-line2 {
+  border: none;
+  background-color: white;
+  height: 7vh;
+  width: 2px;
+  opacity: 100%;
+  position: absolute;
+  top: -10px;
+}
+
+.navigation-bar {
+  position: fixed;
+}
+
+.titles-sticky {
+  position: fixed;
+}
+
+.first-article {
+  width: 100%;
+  margin-top: 15%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15%;
+}
+
+.rigth-first-article {
+  margin-left: 25%;
+  margin-right: 150px;
+}
+
+.articles-img1 {
+  width: 70%;
+  height: 100%;
+}
+
+.f-line-f-article {
+  display: inline-block;
+  margin-left: 35%;
+}
+
+.top-line-f-article {
+  margin-right: 7%;
+  margin-top: 8%;
+}
+
+.top-title-f-article {
+  letter-spacing: 3px;
+  width: 190px;
+  font-size: 0.7rem;
+  font-family: "gilroy";
+  color: #fbd784;
+}
+
+.number-one {
+  font-family: gilroy;
+  font-size: 6rem;
+  font-weight: bold;
+  opacity: 50%;
+  position: absolute;
+  left: 50px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.farticle-top-title {
+  display: flex;
+  margin-top: 12%;
+}
+
+.left-first-article {
+  display: inline-block;
+}
+
+.farticle-title {
+  font-family: chronicle-display;
+  margin: 0px;
+}
+
+.farticle-desc {
+  font-family: gilroy;
+  position: absolute;
+  width: 35%;
+  left: 100px;
+  margin-top: 1%;
+}
+
+.farticle-bot {
+  font-family: "gilroy";
+  color: #fbd784;
+}
+
+.second-article {
+  width: 100%;
+  margin-top: 20%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15%;
+}
+
+.rigth-second-article {
+  margin-left: 150px;
+  margin-right: 300px;
+}
+
+.articles-img2 {
+  width: 200%;
+  height: 91%;
+}
+
+.s-line-s-article {
+  display: inline-block;
+}
+
+.top-line-s-article {
+  margin-right: 7%;
+  margin-top: 8%;
+}
+
+.top-title-s-article {
+  letter-spacing: 3px;
+  width: 190px;
+  font-size: 0.7rem;
+  font-family: "gilroy";
+  color: #fbd784;
+}
+
+.number-two {
+  font-family: gilroy;
+  font-size: 6rem;
+  font-weight: bold;
+  opacity: 50%;
+  position: absolute;
+  left: 42%;
+}
+
+.sarticle-top-title {
+  display: flex;
+  margin-top: 12%;
+}
+
+.left-second-article {
+  display: inline-block;
+}
+
+.sarticle-title {
+  font-family: chronicle-display;
+  margin: 0px;
+}
+
+.sarticle-desc {
+  font-family: gilroy;
+  width: 50%;
+  margin-top: 1%;
+}
+
+.sarticle-bot {
+  font-family: "gilroy";
+  color: #fbd784;
+}
+
+header {
+  margin-bottom: 50rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
